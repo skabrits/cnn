@@ -201,4 +201,4 @@ for i in range(33):
     print('Accuracy of %5s : %2d %%' % (
         classes[i], 100 * class_correct[i] / class_total[i]))
 
-torch.save(net.state_dict(), "/Users/sevakabrits/PycharmProjects/cnn/s2")
+torch.save(net.state_dict(), "./s2")
