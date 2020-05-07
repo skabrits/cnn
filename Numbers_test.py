@@ -1,6 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import torchvision
 import torch
 from torchvision import transforms
+
 
 import numpy as np
 import matplotlib.pyplot as plt  # для отрисовки картиночек
